@@ -1,0 +1,22 @@
+%%writefile file.yaml
+file_type: csv
+dataset_name: death
+file_name: kill_match_stats_final_0
+table_name: death 
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - killed_by 
+    - killer_name 
+    - killer_placement 
+    - killer_position
+    - killer_position_y
+    - map 
+    - match_id 
+    - time 
+    - victim_name
+    - victim_placement 
+    - victim_position_x 
+    - victim_position_y
+    - dtype='object'
